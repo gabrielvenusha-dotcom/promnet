@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usulan Buku</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Form Usulan Buku</h1>
+
+        <nav>
+            <a href="index.html">Katalog</a>
+            <a href="detail.html">Detail Buku</a>
+            <a href="usulan.html">Usulan Buku</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Ajukan Buku Baru</h2>
+
+            <form action="#" method="post">
+
+                <label for="nama">Nama Pengusul</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <br><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <br><br>
+
+                <label for="judul">Judul Buku</label>
+                <input type="text" id="judul" name="judul">
+
+                <br><br>
+
+                <label for="kategori">Kategori</label>
+                <select id="kategori" name="kategori">
+                    <option value="">-- Pilih Kategori --</option>
+                    <option value="fiksi">Fiksi</option>
+                    <option value="nonfiksi">Nonfiksi</option>
+                    <option value="pendidikan">Pendidikan</option>
+                </select>
+
+                <br><br>
+
+                <p>Tingkat Prioritas</p>
+
+                <input type="radio" id="rendah" name="prioritas" value="rendah">
+                <label for="rendah">Rendah</label>
+
+                <input type="radio" id="sedang" name="prioritas" value="sedang">
+                <label for="sedang">Sedang</label>
+
+                <input type="radio" id="tinggi" name="prioritas" value="tinggi">
+                <label for="tinggi">Tinggi</label>
+
+                <br><br>
+
+                <label for="alasan">Alasan Usulan</label>
+                <br>
+                <textarea id="alasan" name="alasan" rows="5" cols="40"></textarea>
+
+                <br><br>
+
+                <button type="submit">Kirim Usulan</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Perpustakaan Kelas &copy; 2026</p>
+    </footer>
+
+</body>
+</html>

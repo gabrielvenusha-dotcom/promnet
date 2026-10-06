@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dies Natalis UPI</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style type="text/tailwindcss">
+    @theme {
+      --color-brand: #0f4c81;
+      --color-brand-light: #e8b800;
+      --font-display: "Poppins", sans-serif;
+    }
+  </style>
+</head>
+<body class="font-display bg-white dark:bg-gray-900 dark:text-white">
+
+  <!-- NAVBAR -->
+  <nav class="flex items-center justify-between px-6 py-4 bg-brand text-white sticky top-0 z-50">
+    <span class="text-xl font-bold">UPI</span>
+    <ul class="flex gap-6 text-sm">
+      <li><a href="#home" class="hover:text-brand-light transition">Beranda</a></li>
+      <li><a href="#acara" class="hover:text-brand-light transition">Acara</a></li>
+      <li><a href="#kegiatan" class="hover:text-brand-light transition">Kegiatan</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header id="home" class="min-h-screen flex flex-col items-center justify-center text-center bg-brand dark:bg-gray-800 text-white px-6">
+    <p class="uppercase tracking-widest text-brand-light mb-3">Dies Natalis ke-72</p>
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Universitas Pendidikan Indonesia</h1>
+    <p class="text-lg md:text-xl mb-2">Tema: "Unggul, Berkarakter, Mendunia"</p>
+    <p class="text-base md:text-lg text-gray-200">12 Oktober 2026 &middot; Kampus UPI Bumi Siliwangi, Bandung</p>
+  </header>
+
+  <!-- ACARA / KEGIATAN (daftar kartu) -->
+  <section id="acara" class="px-6 py-16 text-center">
+    <h2 class="text-3xl font-bold mb-2 text-brand dark:text-brand-light">Rangkaian Kegiatan</h2>
+    <p class="text-gray-500 dark:text-gray-300 max-w-xl mx-auto mb-10">
+      Enam kegiatan utama yang bisa diikuti seluruh civitas akademika UPI.
+    </p>
+
+    <div id="kegiatan" class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+
+      <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 text-left">
+        <h3 class="font-semibold text-lg mb-1">Upacara Dies Natalis</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-300 mb-3">Upacara peringatan resmi di Lapangan Partere</p>
+        <p class="text-brand font-semibold">Gratis</p>
+      </div>
+
+      <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 text-left">
+        <h3 class="font-semibold text-lg mb-1">Seminar Nasional</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-300 mb-3">Pendidikan unggul di era digital</p>
+        <p class="text-brand font-semibold">Rp 25.000</p>
+      </div>
+
+      <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 text-left">
+        <h3 class="font-semibold text-lg mb-1">Jalan Sehat Civitas</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-300 mb-3">Jalan santai keliling kampus + doorprize</p>
+        <p class="text-brand font-semibold">Rp 15.000</p>
+      </div>
+
+      <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 text-left">
+        <h3 class="font-semibold text-lg mb-1">Bazar UMKM Kampus</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-300 mb-3">Puluhan stan kuliner & kerajinan mahasiswa</p>
+        <p class="text-brand font-semibold">Gratis masuk</p>
+      </div>
+
+      <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 text-left">
+        <h3 class="font-semibold text-lg mb-1">Pentas Seni</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-300 mb-3">Penampilan UKM seni & musik mahasiswa</p>
+        <p class="text-brand font-semibold">Rp 20.000</p>
+      </div>
+
+      <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 text-left">
+        <h3 class="font-semibold text-lg mb-1">Donor Darah</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-300 mb-3">Kerja sama dengan PMI Kota Bandung</p>
+        <p class="text-brand font-semibold">Gratis</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="bg-brand text-white text-center py-6 text-sm">
+    <p>Dies Natalis UPI ke-72 &copy; 2026</p>
+  </footer>
+
+</body>
+</html>
